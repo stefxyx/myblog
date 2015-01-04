@@ -4,23 +4,23 @@ title: My Blog
 ---
 
 {% for post in site.posts %}
-                <!-- A single blog post -->
-                <section class="post">
-                    <header class="post-header">
-                        <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">
+<!-- A single blog post -->
+<section class="post">
+    <header class="post-header">
+        <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">
 
-                        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-                        <p class="post-meta">
-                            By <a href="#" class="post-author">Tilo Mitra</a> 
-                            {{ post.date | date_to_string }} 
-                        </p>
-                    </header>
+        <p class="post-meta">
+            By <a href="#" class="post-author">Tilo Mitra</a> 
+            {{ post.date | date_to_string }} 
+        </p>
+    </header>
 
-                    <div class="post-description">
-                        <p>
-                            {{ post.description }}
-                        </p>
-                    </div>
-                </section>
+    <div class="post-description">
+        <p>
+            {{ post.description }}
+        </p>
+    </div>
+</section>
 {% endfor %}
