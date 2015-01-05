@@ -167,10 +167,12 @@ h3 {
     display: inline-block;
     padding: 10px 2em;
     text-decoration: none;
+    color: white;
     width: 100%;
 }
 
 .nav-item:hover {
     background-color: white;
     text-decoration: none;
+    color: purple;
 }
