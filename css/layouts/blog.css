@@ -9,7 +9,7 @@ a {
     color: rgb(61, 146, 201);
 }
 a:hover, a:focus {
-    text-decoration: underline;
+    text-decoration: none;
 }
 h3 {
     font-weight: 100;
