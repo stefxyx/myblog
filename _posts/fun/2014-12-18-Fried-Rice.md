@@ -9,4 +9,4 @@ category: fun
 ## {{ page.date | date_to_string }}
 
 某公子为了一碗蛋炒饭牺牲了江山，为我等屁民换来了美好生活。  
-![Fried Rice](http://1drv.ms/1xuxdFN)
+![Fried Rice](/img/blog/fried_Rice.JPG)
