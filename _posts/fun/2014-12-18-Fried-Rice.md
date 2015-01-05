@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 蛋炒饭的故事
 description: 蛋炒饭来一发
 category: fun

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 开始用Github写东西
 description: WP主机总被莫名的流量淹没，实在是懒得管了。画了点时间在GitHub上搭了个小博客，打算先暂且寄居于此。
 category: thinking

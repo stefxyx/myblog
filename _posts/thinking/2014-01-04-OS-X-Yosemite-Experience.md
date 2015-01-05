@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: OS X Yosemite 正式版实际使用体验
 description: 之前一直憋着没有去下载beta，这次正式版本一上线我就去下载了。这次OS X系统的升级还算比较给力，相对于OS X 10.9鸡肋的功能真是改进了许多。
 category: thinking
