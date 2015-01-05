@@ -169,6 +169,6 @@ h3 {
     text-decoration: none;
 }
 
-.nav-item hover {
+.nav-item:hover {
     background-color: black;
 }
