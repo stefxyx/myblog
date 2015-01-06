@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2014年年末华盛顿，费城暴走之旅
-description: 这里修改描述
+description: ![Fried Rice](/img/Washington&Philadelphia/IMG_0361.JPG)
 category: fun
 ---
 
