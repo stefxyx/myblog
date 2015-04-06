@@ -8,9 +8,6 @@ category: thinking
 #{{ page.title }}
 ## {{ page.date | date_to_string }}
 
-Web-based Offline Sales System - Project of Database Design Course
-===============
-
 1. Short overview
 ====
 The sales system is designed for retail chain stores to digitalize checking out process and make it easier to manage warehouse as well as store information. This sales system is based on three aspects. First, on the aspect of inner company, it is to store and manage information of products, employees, stores and regions. Second, it is to manage the relationship with customers, which can be classified into business and home categories. The last one is for the transactions and records storage and management.<br/>
@@ -43,34 +40,34 @@ update and delete products, product categories and transactions.<br/>
 The front-end includes five main parts: login page, guest page, customer page, employee page and administrator page. Login page achieves the function of users login. Employee, customer and administrator can choose their identity type on login page. Guests can access to the system for simple product research without login. This function is achieved on the guest page. Customer page is designed for customer functions including searching products, updating profile and reviewing order history. Employee page allows employees to edit profile, product, category, customer and other functions. Administrator page allows administrator to get data aggregation results and manage employees. Customer page, employee page and administrator page all have a navigation bar for main functions. <br/>
 
 * Login Page
-![alt tag](instructions/images/Login%20Page.png)<br/>
+![alt tag](img/blog/Login%20Page.png)<br/>
 * Customer Profile Page
-![alt tag](instructions/images/Customer%20Profile%20Page.png)<br/>
+![alt tag](img/blog/Customer%20Profile%20Page.png)<br/>
 * Customer Product Search Page
-![alt tag](instructions/images/Customer%20Product%20Search%20Page.png)<br/>
+![alt tag](img/blog/Customer%20Product%20Search%20Page.png)<br/>
 * Customer Order History and Order Details
-![alt tag](instructions/images/Customer%20Order%20History.png)<br/>
-![alt tag](instructions/images/Customer%20%20Order%20Details.png)<br/>
+![alt tag](img/blog/Customer%20Order%20History.png)<br/>
+![alt tag](img/blog/Customer%20%20Order%20Details.png)<br/>
 * Employee Profile Page
-![alt tag](instructions/images/Employee%20Profile%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Profile%20Page.png)<br/>
 * Employee Product Search Page
-![alt tag](instructions/images/Employee%20Product%20Search%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Product%20Search%20Page.png)<br/>
 * Employee Product Manage Page
-![alt tag](instructions/images/Employee%20Product%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Product%20Manage%20Page.png)<br/>
 * Employee Product Category Manage Page
-![alt tag](instructions/images/Employee%20Product%20Category%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Product%20Category%20Manage%20Page.png)<br/>
 * Employee Customer Manage Page
-![alt tag](instructions/images/Employee%20Customer%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Customer%20Manage%20Page.png)<br/>
 * Employee Order Manage Page
-![alt tag](instructions/images/Employee%20Order%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Order%20Manage%20Page.png)<br/>
 * Employee Store and Region Manage Page
-![alt tag](instructions/images/Employee%20Store%20and%20Region%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Store%20and%20Region%20Manage%20Page.png)<br/>
 * Employee Shopping Cart Page
-![alt tag](instructions/images/Employee%20Shopping%20Cart%20Page.png)<br/>
+![alt tag](img/blog/Employee%20Shopping%20Cart%20Page.png)<br/>
 * Admin Data Aggregation Page
-![alt tag](instructions/images/Admin%20Data%20Aggregation%20Page.png)<br/>
+![alt tag](img/blog/Admin%20Data%20Aggregation%20Page.png)<br/>
 * Admin Employee Manage Page
-![alt tag](instructions/images/Admin%20Employee%20Manage%20Page.png)<br/>
+![alt tag](img/blog/Admin%20Employee%20Manage%20Page.png)<br/>
 
 5. APIs
 ====
