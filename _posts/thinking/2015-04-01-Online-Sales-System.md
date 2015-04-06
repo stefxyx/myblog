@@ -40,7 +40,7 @@ update and delete products, product categories and transactions.<br/>
 The front-end includes five main parts: login page, guest page, customer page, employee page and administrator page. Login page achieves the function of users login. Employee, customer and administrator can choose their identity type on login page. Guests can access to the system for simple product research without login. This function is achieved on the guest page. Customer page is designed for customer functions including searching products, updating profile and reviewing order history. Employee page allows employees to edit profile, product, category, customer and other functions. Administrator page allows administrator to get data aggregation results and manage employees. Customer page, employee page and administrator page all have a navigation bar for main functions. <br/>
 
 * Login Page
-![alt tag](img/blog/Login%20Page.png)<br/>
+![alt tag](../../../../img/blog/Login%20Page.png)<br/>
 * Customer Profile Page
 ![alt tag](img/blog/Customer%20Profile%20Page.png)<br/>
 * Customer Product Search Page
@@ -69,6 +69,7 @@ The front-end includes five main parts: login page, guest page, customer page, e
 * Admin Employee Manage Page
 ![alt tag](img/blog/Admin%20Employee%20Manage%20Page.png)<br/>
 
+
 5. APIs
 ====
 1) Add Category Servlet achieves data transfer of product category name.<br/>
@@ -78,16 +79,12 @@ The front-end includes five main parts: login page, guest page, customer page, e
 5) Add Region Servlet achieves data transfer of a new region’s name and manager.<br/>
 6) Add Store Servlet achieves data transfer of a new store’s address, manager and its region’s id.<br/>
 7) Add Transaction Servlet<br/>
-
-
 8) Delete Category Servlet achieves data transfer of the id of a product category.<br/>
 9) Delete Customer By Id Servlet achieves data transfer of the id of a customer.<br/>
 10) Delete Employee By Id Servlet achieves data transfer of the id of an employee.<br/>
 11) Delete Product Servlet achieves data transfer of the id of a product.<br/>
 12) Delete Region By Id Servlet achieves data transfer of the id of a region.<br/>
 13) Delete Store By Id Servlet achieves data transfer of the id of a store.<br/>
-
-
 14) Update Category Servlet achieves data transfer of id and name of product category.<br/>
 15) Update Customer Servlet achieves data transfer of address of a new customer, including city, street, state and zip code, and data transfer of customer, including customer name and type. For business customer, there are the category of business and the income of business. For home customer, there are gender, age, income and marriage status.<br/>
 16)Update Employee Name By Id Servlet achieves data transfer of id and name of an employee, also address including id, city, street, state and zip code.<br/>
@@ -95,16 +92,12 @@ The front-end includes five main parts: login page, guest page, customer page, e
 18) Update Region By Id Servlet achieves data transfer of a region’s id, name and manager.<br/>
 19) Update Store By Id Servlet achieves data transfer of a store’s id, manager and region id.<br/>
 20) Update Store Salesperson Number By Id Servlet achieves data transfer of the id of the store.<br/>
-
-
 21) Search Address By Id Servlet achieves data transfer of the id of a given address.<br/>
 22) Search Category By Id Servlet achieves data transfer of the id of a given product category.<br/>
 23) Search Customer By Id Servlet achieves data transfer of the id of a given customer.<br/>
 24)Search Product Servlet achieves data transfer of category id, product name and price range of product.<br/>
 25) Search Product By Id Servlet achieves data transfer of the id of a given product.<br/>
 26) Search Transaction Servlet achieves data transfer of customer’s id and salesperson’s id.<br/>
-
-
 27) Customer Check Servlet achieves data transfer of customer’s id and password.<br/>
 28) Customer Login Servlet achieves data transfer of customer’s id and password.<br/>
 29) Employee Check Servlet achieves data transfer of employee’s id and password.<br/>
