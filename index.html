@@ -1,24 +1,15 @@
----
-layout: default
-title: WorldWise
----
-
-{% for post in site.posts %}
-<!-- A single blog post -->
-<section class="post">
-    <header class="post-header">
-
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-        <p class="post-meta">
-            {{ post.date | date_to_string }}
-        </p>
-    </header>
-
-    <div class="post-description">
-        <p>
-            {{ post.description }}
-        </p>
-    </div>
-</section>
-{% endfor %}
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>WorldWise</title>
+        <link href="CSS/layouts/blog.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div>
+          <p>Our site is currently</p>
+          <p>UNDER CONSTRUCTION.</p>
+        </div>
+    </body>
+</html>
